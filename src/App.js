@@ -1,7 +1,15 @@
+import NavBar from "./components/NavBar";
+import ItemlistContainer from "./components/ItemlistContainer";
+import Footer from "./components/Footer";
 
 
 function App(){
-    return ( <p id="parrafo" className="parrafo"> Hola </p>
+    return ( 
+        <>
+        <NavBar/>
+        <ItemlistContainer/>
+        <Footer/>
+        </>
     )}
 
 export default App

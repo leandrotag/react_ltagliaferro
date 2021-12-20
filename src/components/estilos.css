@@ -28,4 +28,30 @@ a:hover {
 
 .sabiasQue{
     font-family: "Sarabun", sans-serif;
+        margin-right: 1rem;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-left: 1rem;
 }
+
+.footer {
+    background: #eebcbc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 0.6rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+  }
+
+  .carrito__icon{
+      float: right;
+  }
