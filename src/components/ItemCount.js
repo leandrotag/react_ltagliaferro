@@ -1,7 +1,7 @@
 import {useState} from "react"
 
 
-function ItemCount ({ stock= 5,initial = 0 }) {    
+function ItemCount ({ stock,initial}) {    
     const [contador,setContador] = useState(initial)
     
     const contadorIncrease = () =>{
