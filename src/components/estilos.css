@@ -55,3 +55,8 @@ a:hover {
   .carrito__icon{
       float: right;
   }
+
+  .contador{
+      margin-left: 3rem;
+      text-align: center;
+  }
