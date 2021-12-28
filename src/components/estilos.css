@@ -60,3 +60,26 @@ a:hover {
       margin-left: 3rem;
       text-align: center;
   }
+
+
+  .colecciones {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr [3];
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-auto-rows: 25rem;
+    padding: 0px;
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 6.2rem;
+    margin-right: 1.2rem;
+    margin-top: 6.2rem;
+    font-family: "Boogaloo", cursive;
+    font-size: 1rem;
+  
+  }
+
+  .colecciones img{
+      width: 18rem;
+justify-content: center;  }

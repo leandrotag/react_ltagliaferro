@@ -1,9 +1,13 @@
-import {useState} from "react"
+import {useEffect, useState} from "react"
 
 
 function ItemCount ({ stock,initial}) {    
     const [contador,setContador] = useState(initial)
     
+    useEffect(() =>{
+        console.log("useeffect")
+    })
+
     const contadorIncrease = () =>{
         if (contador < stock){
         setContador (contador + 1);
