@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Open+Sans+Condensed:wght@300&family=Sarabun:wght@400;500;700&display=swap");
 
-body{
-    background-color: whitesmoke;
-}
-
 h1{
     text-align: center;
     font-family: "Sarabun", sans-serif;
@@ -77,9 +73,85 @@ a:hover {
     margin-top: 6.2rem;
     font-family: "Boogaloo", cursive;
     font-size: 1rem;
+  }
   
+  .colecciones img {
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    width: 18rem;
+  }
+  
+  .colecciones img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
   }
 
-  .colecciones img{
-      width: 18rem;
-justify-content: center;  }
+li {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Boogaloo", cursive;
+    font-size: 1.6rem;
+  }
+  
+  .navbar-light .navbar-nav .nav-item .active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #ebaeae;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    color: #ebaeae;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    margin-right: 4.5rem;
+  }
+  
+  .header__icon {
+    margin-bottom: 2rem;
+  }
+  
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .button__whatsapp {
+    position: fixed;
+    bottom: 1.8rem;
+    right: 3rem;
+    background: transparent;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+  }
+
+  .button__whatsapp:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  .footer img {
+    margin-bottom: 0.6rem;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+  }
+  
+  .footer img:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
